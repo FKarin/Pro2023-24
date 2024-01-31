@@ -1,0 +1,8 @@
+C:\Pro2023-24\Metode\Metode\bin\Debug\Metode.exe.config
+C:\Pro2023-24\Metode\Metode\bin\Debug\Metode.exe
+C:\Pro2023-24\Metode\Metode\bin\Debug\Metode.pdb
+C:\Pro2023-24\Metode\Metode\obj\Debug\Metode.csproj.AssemblyReference.cache
+C:\Pro2023-24\Metode\Metode\obj\Debug\Metode.csproj.SuggestedBindingRedirects.cache
+C:\Pro2023-24\Metode\Metode\obj\Debug\Metode.csproj.CoreCompileInputs.cache
+C:\Pro2023-24\Metode\Metode\obj\Debug\Metode.exe
+C:\Pro2023-24\Metode\Metode\obj\Debug\Metode.pdb

@@ -1,0 +1,8 @@
+C:\Pro2023-24\Dedovanje\Dedovanje\bin\Debug\Dedovanje.exe.config
+C:\Pro2023-24\Dedovanje\Dedovanje\bin\Debug\Dedovanje.exe
+C:\Pro2023-24\Dedovanje\Dedovanje\bin\Debug\Dedovanje.pdb
+C:\Pro2023-24\Dedovanje\Dedovanje\obj\Debug\Dedovanje.csproj.AssemblyReference.cache
+C:\Pro2023-24\Dedovanje\Dedovanje\obj\Debug\Dedovanje.csproj.SuggestedBindingRedirects.cache
+C:\Pro2023-24\Dedovanje\Dedovanje\obj\Debug\Dedovanje.csproj.CoreCompileInputs.cache
+C:\Pro2023-24\Dedovanje\Dedovanje\obj\Debug\Dedovanje.exe
+C:\Pro2023-24\Dedovanje\Dedovanje\obj\Debug\Dedovanje.pdb
