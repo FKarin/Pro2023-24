@@ -29,7 +29,7 @@ namespace Dedovanje
         }
         public Delavec()
         {
-            Console.WriteLine("Konstruktor");
+            Console.WriteLine("Konstruktor Delavec");
         }
         public void Izpis()
         {

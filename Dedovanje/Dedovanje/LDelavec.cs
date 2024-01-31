@@ -11,6 +11,11 @@ namespace Dedovanje
         private double letnaPlača;
 
         public double LetnaPlača { get => letnaPlača; set => letnaPlača = value; }
+
+        public LDelavec()
+        {
+            Console.WriteLine("Konstruktor LDelavec");
+        }
         public double BrutoPlača
         {
             get
