@@ -55,9 +55,9 @@ namespace KalkulatorV2
                         );
                     break;
                 case Oddelek.Matematika:
-                    Console.WriteLine("Vnesi oceno delnega izpita 1:");
+                    Console.WriteLine("Vnesi oceno vmesnega izpita:");
                     delni1 = int.Parse(Console.ReadLine());
-                    Console.WriteLine("Vnesi oceno delnega izpita 2:");
+                    Console.WriteLine("Vnesi oceno končnega izpita:");
                     delni2 = int.Parse(Console.ReadLine());
                     končnaOcena = 0.5 * delni1 + 0.5 * delni2;
                     if (končnaOcena >= 90)
