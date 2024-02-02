@@ -1,0 +1,8 @@
+C:\Pro2023-24\VajeMetode\VajeMetode\bin\Debug\VajeMetode.exe.config
+C:\Pro2023-24\VajeMetode\VajeMetode\bin\Debug\VajeMetode.exe
+C:\Pro2023-24\VajeMetode\VajeMetode\bin\Debug\VajeMetode.pdb
+C:\Pro2023-24\VajeMetode\VajeMetode\obj\Debug\VajeMetode.csproj.AssemblyReference.cache
+C:\Pro2023-24\VajeMetode\VajeMetode\obj\Debug\VajeMetode.csproj.SuggestedBindingRedirects.cache
+C:\Pro2023-24\VajeMetode\VajeMetode\obj\Debug\VajeMetode.csproj.CoreCompileInputs.cache
+C:\Pro2023-24\VajeMetode\VajeMetode\obj\Debug\VajeMetode.exe
+C:\Pro2023-24\VajeMetode\VajeMetode\obj\Debug\VajeMetode.pdb
