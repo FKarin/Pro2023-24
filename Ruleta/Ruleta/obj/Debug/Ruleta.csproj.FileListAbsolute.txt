@@ -1,0 +1,8 @@
+C:\Pro2023-24\Ruleta\Ruleta\bin\Debug\Ruleta.exe.config
+C:\Pro2023-24\Ruleta\Ruleta\bin\Debug\Ruleta.exe
+C:\Pro2023-24\Ruleta\Ruleta\bin\Debug\Ruleta.pdb
+C:\Pro2023-24\Ruleta\Ruleta\obj\Debug\Ruleta.csproj.AssemblyReference.cache
+C:\Pro2023-24\Ruleta\Ruleta\obj\Debug\Ruleta.csproj.SuggestedBindingRedirects.cache
+C:\Pro2023-24\Ruleta\Ruleta\obj\Debug\Ruleta.csproj.CoreCompileInputs.cache
+C:\Pro2023-24\Ruleta\Ruleta\obj\Debug\Ruleta.exe
+C:\Pro2023-24\Ruleta\Ruleta\obj\Debug\Ruleta.pdb
