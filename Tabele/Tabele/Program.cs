@@ -101,6 +101,23 @@ namespace Tabele
             po = DateTime.Now;
             čas = (po - pred).TotalMilliseconds;
             Console.WriteLine("Urejanje z vstavljanjem: " + čas);
+
+            //bubble sort
+            for (int i = 0; i < tab.Length; i++)
+                tab[i] = r.Next(100000);
+            int t = 0;
+            for (int i = 0; i < tab.Length - 2; i++)
+            {
+                for (int j = 0; j < tab.Length - 2; j++)
+                {
+                    if (tab[j] > tab[j + 1])
+                    {
+                        t = tab[j + 1];
+                        tab[j + 1] = tab[j];
+                        tab[j] = t;
+                    }
+                }
+            }
         }
         static void Izpiši(int[] tab)
         {
