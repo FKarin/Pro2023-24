@@ -32,7 +32,25 @@ namespace RazrediVaje
             "\nKoordinati kota desno spodaj = " + p.X2 + "," + p.Y2);
             Console.WriteLine("Stranica a " + p.StranicaA());
             Console.WriteLine("Stranica b " + p.StranicaB());
-            Console.WriteLine("Plošina " + p.Plošcina());
+            Console.WriteLine("Plošina " + p.Ploščina());
+            Console.ReadLine();
+
+            Valj v = new Valj(37, 45, 2.5f, 1f);
+            Console.WriteLine("X koordinata = " + v.X +
+            "\nY koordinata = " + v.Y +
+            "\nRadij =" + v.Radij +
+            "\nVišina =" + v.Višina);
+            Console.WriteLine("Površina = " + v.Površina());
+            Console.WriteLine("Volumen =" + v.Volumen());
+            Console.ReadLine();
+
+            Kvader k1 = new Kvader(5,5,10,10,5f);
+            Console.WriteLine("Koordinati kota levo zgoraj = " + k1.X1 + "," + k1.Y1 +
+            "\nKoordinati kota desno spodaj = " + k1.X2 + "," + k1.Y2);
+            Console.WriteLine("Stranica a " + k1.StranicaA());
+            Console.WriteLine("Stranica b " + k1.StranicaB());
+            Console.WriteLine("Površina " + k1.Površina());
+            Console.WriteLine("Volumen " + k1.Volumen());
         }
     }
 }

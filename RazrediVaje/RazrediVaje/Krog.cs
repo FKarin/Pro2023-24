@@ -19,9 +19,9 @@ namespace RazrediVaje
 
         public Krog(int x, int y, float r)
         {
-            int xK = this.x;
-            int yK = this.y;
-            float rK = this.r;
+            this.x = x;
+            this.y = y;
+            this.r = r;
         }
 
         public double Premer()

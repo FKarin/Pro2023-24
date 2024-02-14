@@ -44,9 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Krog.cs" />
+    <Compile Include="Kvader.cs" />
     <Compile Include="Pravokotnik.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Valj.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
