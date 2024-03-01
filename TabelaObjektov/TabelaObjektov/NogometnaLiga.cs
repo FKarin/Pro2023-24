@@ -72,6 +72,7 @@ namespace TabelaObjektov
                     }
                 }
             }
+            
         }
 
         public void VnesiKolo(int kolo)
@@ -88,9 +89,42 @@ namespace TabelaObjektov
                     if (pari[i, j] == kolo)
                     {
                         Console.WriteLine(m[i].Ime + " : " + m[j].Ime);
+                        string r = Console.ReadLine();
+                        string[] vsi = r.Split(':');
+                        int goli1 = int.Parse(vsi[0]);
+                        int goli2 = int.Parse(vsi[1]);
+                        m[i].VpisRezultata(goli1, goli2);
+                        m[j].VpisRezultata(goli2, goli1);
                     }
                 }
             }
+            Mostvo[] urejena = new Mostvo[10];
+            for (int i = 0; i < 10; i++)
+            {
+                urejena[i] = m[i];
+            }
+            for (int i = 0; i < 10; i++)
+            {
+                Mostvo max = urejena[i];
+                int maxindex = i;
+                for (int j = i+1; j < 10; j++)
+                {
+                    if (urejena[i].BoljšeMoštvo(max))
+                    {
+                        max = urejena[j];
+                        maxindex = j;
+                    }
+                }
+                Mostvo temp = urejena[i];
+                urejena[i] = urejena[maxindex];
+                urejena[maxindex] = temp;
+            }
+            Console.WriteLine("****** REZULTATI ******");
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(urejena[i].Izpis());
+            }
+            Console.WriteLine("***********************");
         }
         //dodatno
         //sortiraj tabelo liga v smislu BoljšeMoštvo, spet izpiši

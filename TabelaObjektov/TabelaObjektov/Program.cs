@@ -11,7 +11,7 @@ namespace TabelaObjektov
         static void Main(string[] args)
         {
             NogometnaLiga a = new NogometnaLiga();
-            a.IzpisTurnir();
+            a.VnesiKolo(1);
         }
     }
 }
