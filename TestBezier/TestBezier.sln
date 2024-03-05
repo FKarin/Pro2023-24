@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBezier", "TestBezier\TestBezier.csproj", "{31193C66-6B14-4FCB-8A19-B54E355B064D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31193C66-6B14-4FCB-8A19-B54E355B064D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31193C66-6B14-4FCB-8A19-B54E355B064D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31193C66-6B14-4FCB-8A19-B54E355B064D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31193C66-6B14-4FCB-8A19-B54E355B064D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDCC6D91-977B-4A7F-980B-A86979CB6620}
+	EndGlobalSection
+EndGlobal
