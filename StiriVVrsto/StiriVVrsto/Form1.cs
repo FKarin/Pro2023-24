@@ -23,6 +23,7 @@ namespace StiriVVrsto
                         };
         int ST_VRSTIC = 5;
         int ST_STOLPCEV = 7;
+        int igralec = 1;
         public Form1()
         {
             InitializeComponent();
@@ -64,10 +65,19 @@ namespace StiriVVrsto
                             barva = new SolidBrush(Color.Green);
                         else
                             barva = new SolidBrush(Color.Red);
-                        g.FillEllipse(barva, j * 100, i * 100, 100, 100);
+                        g.FillEllipse(barva, j * 100 + 5, i * 100 + 5, 90, 90);
                     }
                 }
             }
+        }
+
+        private void pictureBox1_MouseClick(object sender, MouseEventArgs e)
+        {
+            int vrstica = e.Y / 100;
+            int stolpec = e.X / 100;
+            STANJE[vrstica, stolpec] = igralec;
+            igralec = 3 - igralec;
+            pictureBox1.Invalidate();
         }
     }
 }
