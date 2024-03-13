@@ -1,0 +1,37 @@
+﻿<Window x:Class="WPFVaja.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFVaja"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="377" Width="530">
+    <Grid>
+        <Slider x:Name="sldStotice1" HorizontalAlignment="Left" Margin="48,40,0,0" VerticalAlignment="Top" Width="300" Maximum="9" IsSnapToTickEnabled="True" SmallChange="1" ValueChanged="sldStotice1_ValueChanged"/>
+        <TextBox x:Name="txtStotice1" HorizontalAlignment="Left" Margin="384,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" Text="{Binding Value, ElementName=sldStotice1}"/>
+        <Label Content="Stotice" HorizontalAlignment="Left" Margin="456,36,0,0" VerticalAlignment="Top"/>
+        <Slider x:Name="sldDesetice1" HorizontalAlignment="Left" Margin="48,71,0,0" VerticalAlignment="Top" Width="300" Maximum="9" IsSnapToTickEnabled="True" SmallChange="1" ValueChanged="sldDesetice1_ValueChanged"/>
+        <TextBox x:Name="txtDesetice1" HorizontalAlignment="Left" Margin="384,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" Text="{Binding Value, ElementName=sldDesetice1}"/>
+        <Label Content="Desetice" HorizontalAlignment="Left" Margin="456,67,0,0" VerticalAlignment="Top"/>
+        <Slider x:Name="sldEnice1" HorizontalAlignment="Left" Margin="48,102,0,0" VerticalAlignment="Top" Width="300" Maximum="9" IsSnapToTickEnabled="True" SmallChange="1" ValueChanged="sldEnice1_ValueChanged"/>
+        <TextBox x:Name="txtEnice1" HorizontalAlignment="Left" Margin="384,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" Text="{Binding Value, ElementName=sldEnice1}"/>
+        <Label Content="Enice" HorizontalAlignment="Left" Margin="456,98,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblPrvo" Content="Prvo število =" HorizontalAlignment="Left" Margin="341,125,0,0" VerticalAlignment="Top"/>
+        <Slider x:Name="sldStotice2" HorizontalAlignment="Left" Margin="48,173,0,0" VerticalAlignment="Top" Width="300" Maximum="9" IsSnapToTickEnabled="True" SmallChange="1" ValueChanged="sldStotice2_ValueChanged"/>
+        <TextBox x:Name="txtStotice2" HorizontalAlignment="Left" Margin="384,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" Text="{Binding Value, ElementName=sldStotice2}"/>
+        <Label Content="Stotice" HorizontalAlignment="Left" Margin="456,169,0,0" VerticalAlignment="Top"/>
+        <Slider x:Name="sldDesetice2" HorizontalAlignment="Left" Margin="48,204,0,0" VerticalAlignment="Top" Width="300" Maximum="9" IsSnapToTickEnabled="True" SmallChange="1" ValueChanged="sldDesetice2_ValueChanged"/>
+        <TextBox x:Name="txtDesetice2" HorizontalAlignment="Left" Margin="384,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" Text="{Binding Value, ElementName=sldDesetice2}"/>
+        <Label Content="Desetice" HorizontalAlignment="Left" Margin="456,200,0,0" VerticalAlignment="Top"/>
+        <Slider x:Name="sldEnice2" HorizontalAlignment="Left" Margin="48,235,0,0" VerticalAlignment="Top" Width="300" Maximum="9" IsSnapToTickEnabled="True" SmallChange="1" ValueChanged="sldEnice2_ValueChanged"/>
+        <TextBox x:Name="txtEnice2" HorizontalAlignment="Left" Margin="384,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55" Text="{Binding Value, ElementName=sldEnice2}"/>
+        <Label Content="Enice" HorizontalAlignment="Left" Margin="456,231,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblDrugo" Content="Drugo število =" HorizontalAlignment="Left" Margin="341,258,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnIzračunaj" Content="Izračunaj" HorizontalAlignment="Left" Margin="48,305,0,0" VerticalAlignment="Top" Click="btnIzračunaj_Click"/>
+        <Label HorizontalAlignment="Left" Margin="133,302,0,0" VerticalAlignment="Top" Content="Rezultat ="/>
+        <TextBox x:Name="txtPrvo" HorizontalAlignment="Left" Margin="424,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70"/>
+        <TextBox x:Name="txtDrugo" HorizontalAlignment="Left" Margin="432,262,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70"/>
+        <TextBox x:Name="txtRezultat" HorizontalAlignment="Left" Margin="202,306,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70"/>
+
+    </Grid>
+</Window>
