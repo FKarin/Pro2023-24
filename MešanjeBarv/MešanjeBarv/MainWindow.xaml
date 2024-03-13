@@ -1,0 +1,22 @@
+﻿<Window x:Class="MešanjeBarv.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MešanjeBarv"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="365" Width="640">
+    <Grid>
+        <Slider x:Name="sldRed" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="492" SmallChange="1" LargeChange="10" IsSnapToTickEnabled="True" Maximum="255" ValueChanged="sldRed_ValueChanged"/>
+        <Slider x:Name="sldGreen" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="492" SmallChange="1" LargeChange="10" IsSnapToTickEnabled="True" Maximum="255" ValueChanged="sldGreen_ValueChanged"/>
+        <Slider x:Name="sldBlue" HorizontalAlignment="Left" Margin="10,90,0,0" VerticalAlignment="Top" Width="492" SmallChange="1" LargeChange="10" IsSnapToTickEnabled="True" Maximum="255" ValueChanged="sldBlue_ValueChanged"/>
+        <Label Content="R" HorizontalAlignment="Left" Margin="520,6,0,0" VerticalAlignment="Top"/>
+        <Label Content="G" HorizontalAlignment="Left" Margin="520,46,0,0" VerticalAlignment="Top"/>
+        <Label Content="B" HorizontalAlignment="Left" Margin="521,86,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtRed" HorizontalAlignment="Left" Margin="551,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63" Text="{Binding Value, ElementName=sldRed}"/>
+        <TextBox x:Name="txtRed_Copy" HorizontalAlignment="Left" Margin="551,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63" Text="{Binding Value, ElementName=sldGreen}"/>
+        <TextBox x:Name="txtRed_Copy1" HorizontalAlignment="Left" Margin="551,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63" Text="{Binding Value, ElementName=sldBlue}"/>
+        <Rectangle x:Name="p1" HorizontalAlignment="Left" Height="182" Margin="10,137,0,0" Stroke="Black" VerticalAlignment="Top" Width="604" Fill="#FF4EFF61"/>
+
+    </Grid>
+</Window>
