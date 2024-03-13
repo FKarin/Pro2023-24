@@ -25,48 +25,23 @@ namespace KalkulatorV4
             InitializeComponent();
         }
 
-        private void Seštej()
-        {
-            int rezultat = int.Parse(txtPrvo.Text) + int.Parse(txtDrugo.Text);
-            txtRezultat.Text = rezultat + "";
-        }
-
-        private void Odštej()
-        {
-            int rezultat = int.Parse(txtPrvo.Text) - int.Parse(txtDrugo.Text);
-            txtRezultat.Text = rezultat + "";
-        }
-
-        private void Množi()
-        {
-            int rezultat = int.Parse(txtPrvo.Text) * int.Parse(txtDrugo.Text);
-            txtRezultat.Text = rezultat + "";
-        }
-
-        private void Deli()
-        {
-            int rezultat = int.Parse(txtPrvo.Text) / int.Parse(txtDrugo.Text);
-            txtRezultat.Text = rezultat + "";
-        }
-
-        private void AliJeNegativno()
-        {
-            if (int.Parse(txtRezultat.Text) < 0)
-                txtRezultat.Background = new SolidColorBrush(Colors.Red);
-        }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            double rezultat = 0;
             if (radSeštej.IsChecked == true)
-                Seštej();
+                rezultat = double.Parse(txtPrvo.Text) + double.Parse(txtDrugo.Text);
             if (radOdštej.IsChecked == true)
-                Odštej();
+                rezultat = double.Parse(txtPrvo.Text) - double.Parse(txtDrugo.Text);
             if (radMnoži.IsChecked == true)
-                Množi();
+                rezultat = double.Parse(txtPrvo.Text) * double.Parse(txtDrugo.Text);
             if (radDeli.IsChecked == true)
-                Deli();
+                rezultat = double.Parse(txtPrvo.Text) / double.Parse(txtDrugo.Text);
+            txtRezultat.Text = rezultat + "";
             if (chkNegativno.IsChecked == true)
-                AliJeNegativno();
+            {
+                if (double.Parse(txtRezultat.Text) < 0)
+                    txtRezultat.Background = new SolidColorBrush(Colors.Red);
+            }
         }
     }
 }
